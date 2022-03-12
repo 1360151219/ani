@@ -1,0 +1,17 @@
+{
+  "name": "@strk2/ani",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "盐焗乳鸽还要砂锅",
+  "bin": {
+    "ani": "bin/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.0.0"
+  }
+}
