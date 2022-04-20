@@ -10,6 +10,4 @@ npm install @strk2/ani -g
 
 use `ani -i` to show random animals design（I hope it will relieve you of the fatigue of the day）
 
-
-
-A 同学
+B 同学
