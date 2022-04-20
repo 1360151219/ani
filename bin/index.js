@@ -28,6 +28,6 @@ var animals = fs.readFileSync(path.join(__dirname, '../data/animals.txt')).toStr
 function randomAnimal() {
     return animals[Math.floor(Math.random() * animals.length)];
 }
-var animal = cmd._optionValues.index === true ? randomAnimal() : animals[cmd._optionValues.index];
+var animal = cmd._optionValues.index === -1 ? randomAnimal() : animals[cmd._optionValues.index];
 
 console.log(animal)
